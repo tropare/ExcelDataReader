@@ -255,7 +255,7 @@ namespace ExcelDataReader.Core.BinaryFormat
         }
 
         /// <summary>
-        /// Reads additional records if needed: a string record might follow a formula result
+        /// Reads additional records if needed: a string record might follow a formula result.
         /// </summary>
         private Cell ReadSingleCell(XlsBiffStream biffStream, XlsBiffBlankCell cell, int xfIndex)
         {

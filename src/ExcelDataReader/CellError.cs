@@ -1,7 +1,7 @@
 ﻿namespace ExcelDataReader
 {
     /// <summary>
-    /// Formula error
+    /// Formula error.
     /// </summary>
     public enum CellError : byte
     {
